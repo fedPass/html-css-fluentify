@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     background-color: #073670;
     height: 500px;
@@ -15,7 +19,6 @@ header {
 }
 
 header a, header button {
-    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
@@ -69,9 +72,9 @@ header a, header button {
     color: #98b9e3;
 }
 
-.btn_menu button {
+button {
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 8px 20px;
     color: white;
 }
 
@@ -89,13 +92,31 @@ header a, header button {
 .jumbo {
     width: 50%;
     float: left;
-    background-color: green;
     height: 420px;
+}
+
+.jumbo p {
+    color: white;
+    font-size: 45px;
+    line-height: 55px;
+    padding-top: 133px;
 }
 
 .photo_header {
     width: 50%;
     float: right;
     height: 420px;
-    background-color: red;
+    position: relative;
+}
+
+.photo_header img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.jumbo .rich_piano {
+    margin-top: 40px;
+    padding: 15px 25px;
 }
