@@ -14,9 +14,76 @@ header {
     margin: 0 auto;
 }
 
-header .menu {
+header a, header button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.nav_menu {
+    width: 50%;
+    float: left;
     height: 80px;
-    background-color: yellow;
+}
+
+.nav_menu nav {
+    float: right;
+    line-height: 80px;
+
+}
+
+.nav_menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.nav_menu a {
+    color: white;
+    padding: 15px 2px;
+}
+
+.nav_menu a:hover {
+    color: yellow;
+}
+
+#logo {
+    padding: 20px 0;
+}
+
+.btn_menu {
+    width: 50%;
+    float: right;
+    height: 80px;
+}
+
+.btn_menu_container {
+    float: right;
+    padding: 25px 0;
+}
+
+.btn_menu a {
+    color: #98b9e3;
+}
+
+.btn_menu button {
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+}
+
+#login {
+    background-color: transparent;
+    border: 1px solid white;
+    margin:0 10px;
+}
+
+.rich_piano {
+    background-color: #59d134;
+    border: 1px solid #59d134;
 }
 
 .jumbo {
