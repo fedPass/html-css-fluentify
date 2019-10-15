@@ -98,7 +98,7 @@ button {
     height: 420px;
 }
 
-.jumbo p {
+.jumbo h1 {
     color: white;
     font-size: 45px;
     line-height: 55px;
@@ -132,14 +132,58 @@ button {
     font-weight: 300;
 }
 
-.copy p:first-child {
+.copy h2 {
     color: black;
     font-size: 24px;
     padding-top: 40px;
 }
 
-.copy p:last-child {
+.copy p {
     color: #717880;
     font-size: 18px;
     padding-bottom: 40px;
+}
+
+/* -----section features------ */
+.features_container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.features_box {
+    width: 30%;
+    float:left;
+    padding: 50px 0;
+}
+
+.features_box img {
+    width: 150px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 50px;
+}
+
+.features_box h3 {
+    color: #59d134;
+    text-align: center;
+}
+
+.features_box h3::after {
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 15px auto;
+    background-color: #717880;
+    content: " ";
+}
+
+.features_box p {
+    font-size: 13px;
+    line-height: 25px;
+    color: #717880;
+}
+
+.features_box:nth-child(2) {
+    margin: 73px 5% 0;
 }
