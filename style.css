@@ -8,6 +8,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* -----header------ */
+
 .container {
     background-color: #073670;
     height: 500px;
@@ -76,6 +78,7 @@ button {
     border-radius: 5px;
     padding: 8px 20px;
     color: white;
+    cursor: pointer;
 }
 
 #login {
@@ -119,4 +122,24 @@ button {
 .jumbo .rich_piano {
     margin-top: 40px;
     padding: 15px 25px;
+}
+
+/* -----section copy------ */
+
+.copy {
+    background-color: #e4e8ed;
+    text-align: center;
+    font-weight: 300;
+}
+
+.copy p:first-child {
+    color: black;
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.copy p:last-child {
+    color: #717880;
+    font-size: 18px;
+    padding-bottom: 40px;
 }
